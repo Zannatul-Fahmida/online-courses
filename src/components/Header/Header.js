@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand><NavLink to="/"className="text-decoration-none text-dark fw-bold">Learn Awesome</NavLink></Navbar.Brand>
+                <Navbar.Brand><NavLink to="/"className="text-decoration-none fw-bold text-success">Learn Awesome</NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -17,6 +17,7 @@ const Header = () => {
                         <NavLink to="/home" className="mx-2 text-decoration-none text-dark">Home</NavLink>
                         <NavLink to="/services" className="mx-2 text-decoration-none text-dark">Services</NavLink>
                         <NavLink to="/about" className="mx-2 text-decoration-none text-dark">About</NavLink>
+                        <NavLink to="/contact" className="mx-2 text-decoration-none text-dark">Contact</NavLink>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl
